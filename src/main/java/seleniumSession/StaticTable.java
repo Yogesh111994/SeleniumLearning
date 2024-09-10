@@ -36,15 +36,15 @@ public class StaticTable {
 			String actualXpath =beforeXpath+i+afterXpath;
 			//System.out.println(actualXpath);
 			String companyName = driver.findElement(By.xpath(actualXpath)).getText();
-			System.out.print(companyName+"                                                             ");
+			System.out.print(companyName+"");
 			
 			String actualXpath2 =beforeXpath+i+afterXpath2;
 			String contact = driver.findElement(By.xpath(actualXpath2)).getText();
-			System.out.print(contact+"                                                             ");
+			System.out.print(contact+"");
 			
 			String actualXpath3 =beforeXpath+i+afterXpath3;
 			String country = driver.findElement(By.xpath(actualXpath3)).getText();
-			System.out.print(country+"                                                             ");
+			System.out.print(country+"");
 			System.out.println();
 			
 			

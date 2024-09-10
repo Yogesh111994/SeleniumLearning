@@ -36,10 +36,12 @@ public class WebTablePagination {
 		// MultiSelection
 		
 		while(true){
+			
 			List<WebElement> country=driver.findElements(By.xpath("//td[text()='India']"));
 			if(country.size()>0) {
 				selectMultipleCountry("India");
 				break;
+				
 			}
 			else{
 				WebElement next=driver.findElement(By.linkText("Next"));
